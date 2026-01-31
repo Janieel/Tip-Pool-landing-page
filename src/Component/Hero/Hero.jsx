@@ -1,18 +1,20 @@
 import React from 'react'
 import EW from "../../assets/Icons/E-Wallet-bro.svg"
+import Swipercarousel from '../Swipercarousel/Swipercarousel'
+
 
 const Hero = () => {
   return (
     <div>
-          <div className='bg-red-600 h-100 grid grid-cols-2 mt-10'>
-             <div className='bg-blue-800 col-span-1 pl-10 pt-15'>
+          <div className=' h-100 grid grid-cols-2 mt-10'>
+             <div className=' col-span-1 pl-20 pt-15'>
                 
-             <p className='bg-fuchsia-500 text-[4rem] font-serif'> Fair <br /> Transparent </p>
-             <p className='text-[1.5rem]'>A decentralized tipping platform for all</p>
+             <p className='text-[4rem] text-blue-500 font-serif'> Fair <br /> Transparent </p>
+             <p className='text-[1.5rem] text-white'>A decentralized tipping platform for all</p>
              
              </div>
-             <div className='bg-green-600 col-span-1 pl-20 '>
-                <img src={EW} className='h-90 ' alt="" />
+             <div className=' col-span-1  mr-10'>
+                  <Swipercarousel/>
              </div>
           </div>
     </div>
