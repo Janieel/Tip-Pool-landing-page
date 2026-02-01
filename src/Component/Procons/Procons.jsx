@@ -1,6 +1,6 @@
 import React from 'react'
 import x from "../../assets/Icons/puzzle-alt.svg"
-import y from "../../assets/Icons/shrug-amico.svg"
+import y from "../../assets/Icons/Shrug-amico.svg"
 import h from "../../assets/Icons/merger-amico.svg"
 import l from "../../assets/Icons/lightbulb-dollar.svg"
 const Procons = () => {
