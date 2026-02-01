@@ -8,7 +8,7 @@ const Hero = () => {
     <div>
       <div className="w-full flex flex-col lg:grid lg:grid-cols-2  lg:mt-10 sm:mt-5">
         {/* Text Section */}
-        <div className="col-span-1 px-20 pt-6 pb-4 sm:px-20 sm:pt-5 md:pl-30 sm:pb-5  lg:pl-20 lg:pt-15 lg:pb-0">
+        <div className="col-span-1 px-20 pt-6 pb-4 sm:px-20 sm:pt-5 md:pl-30 sm:pb-5 lg:pt-25  lg:pl-20  lg:pb-0">
           <p className="text-[2.5rem] sm:text-[3rem] lg:text-[4rem] text-blue-500 font-serif">
             Fair <br /> Transparent
           </p>
