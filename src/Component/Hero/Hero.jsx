@@ -18,7 +18,7 @@ const Hero = () => {
         </div>
 
         {/* Swiper Section */}
-        <div className="col-span-1 px-6 pb-6 sm:px-10 sm:pb-5 lg:pr-10 lg:pb-0 ">
+        <div className="col-span-1 px-6 pb-6 sm:px-10 sm:pb-5 lg:pr-10 lg:pb-0">
           <Swipercarousel />
         </div>
       </div>
