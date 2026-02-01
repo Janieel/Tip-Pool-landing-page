@@ -1,5 +1,36 @@
 @import "tailwindcss";
 body {
-  background: linear-gradient(135deg, #050506 10%,  #223d2b 50%,  #04111c 90%,  #050506 100%, #191b19 100%);
+  background: linear-gradient(135deg, #050605 10%,  #223d2b 50%,  #04111c 90%,  #050506 100%, #191b19 100%);
   
 }
+@layer utilities {
+  /* Dots: hidden by default, show only on lg and above */
+  .swiper-pagination {
+    display: none !important;
+  }
+
+  @media (min-width: 1024px) {
+    .swiper-pagination {
+      display: flex !important;
+      justify-content: center;
+      position: absolute !important;
+      bottom: 12px !important;
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+    }
+  }
+
+  /* Arrows: visible by default, hide on lg and above */
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: flex !important;
+  }
+
+  @media (min-width: 1024px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none !important;
+    }
+  }
+}
+

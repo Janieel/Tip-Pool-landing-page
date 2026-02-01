@@ -20,31 +20,45 @@ const SwiperCarousel = () => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 3000,
+          delay: 2500,
           disableOnInteraction: false,
         }}
         pagination={{ clickable: true }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="h-105 w-full  rounded-[10px]"
+        className="
+                 w-full
+              rounded-[10px]
+              overflow-hidden
+
+              h-[220px]
+              sm:h-[300px]
+              md:h-[380px]
+              lg:h-[390px]
+              xl:h-[470px]
+
+             pb-10
+
+        
+        "
       >
-        <SwiperSlide className=" h-full  w-full flex items-center justify-center rounded-[10px]">
-           <img src={creat} className='rounded-[10px]' alt="" />
+        <SwiperSlide className=" h-full   w-full flex items-center justify-center  rounded-[10px]">
+           <img src={creat} className='rounded-[10px] h-full w-full object-contain ' alt="" />
         </SwiperSlide>
         <SwiperSlide className="h-full  w-full flex items-center justify-center">
-           <img src={work} className='rounded-[10px]' alt="" />
+           <img src={work} className='rounded-[10px] h-full w-full object-contain ' alt="" />
         </SwiperSlide>
         <SwiperSlide className=" h-full  w-full flex items-center justify-center">
-           <img src={form} className='rounded-[10px]' alt="" />
+           <img src={form} className='rounded-[10px] h-full w-full object-contain ' alt="" />
         </SwiperSlide>
          <SwiperSlide className=" h-full  w-full flex items-center justify-center">
-           <img src={dev} className='rounded-[10px]' alt="" />
+           <img src={dev} className='rounded-[10px] h-full w-full object-contain ' alt="" />
         </SwiperSlide>
          <SwiperSlide className="h-full  w-full flex items-center justify-center">
-           <img src={pay} className='rounded-[10px]' alt="" />
+           <img src={pay} className='rounded-[10px] h-full w-full object-contain ' alt="" />
         </SwiperSlide>
          <SwiperSlide className=" h-full  w-full flex items-center justify-center">
-           <img src={wall} className='rounded-[10px]' alt="" />
+           <img src={wall} className='rounded-[10px] h-full w-full object-contain ' alt="" />
         </SwiperSlide>
       </Swiper>
     </div>
