@@ -4,7 +4,6 @@ body {
   
 }
 @layer utilities {
-  /* Dots: hidden by default, show only on lg and above */
   .swiper-pagination {
     display: none !important;
   }
@@ -20,7 +19,7 @@ body {
     }
   }
 
-  /* Arrows: visible by default, hide on lg and above */
+
   .swiper-button-next,
   .swiper-button-prev {
     display: flex !important;
