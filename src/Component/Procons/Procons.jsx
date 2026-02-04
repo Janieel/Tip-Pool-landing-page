@@ -1,11 +1,24 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import x from "../../assets/Icons/puzzle-alt.svg"
 import y from "../../assets/Icons/Shrug-amico.svg"
 import h from "../../assets/Icons/merger-amico.svg"
 import l from "../../assets/Icons/lightbulb-dollar.svg"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
 const Procons = () => {
+              useEffect(() => {
+                   AOS.init({
+                     duration: 1000,
+                     once: true, // animation happens once
+                     easing: 'ease-in-out',
+                   });
+                 }, []); 
+  
   return (
-       <div>
+       <div data-aos="fade-up">
          <div className='  grid grid-cols-1 lg:grid-cols-2 mt-30 lg:flex-col '>
             <div className='col-span-1 md:pl-20 lg:pl-0'> 
                 <div className='' >
