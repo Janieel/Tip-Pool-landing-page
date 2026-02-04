@@ -31,7 +31,7 @@ const SwiperCarousel = () => {
               rounded-[10px]
               overflow-hidden
 
-              h-[220px]
+              h-[250px]
               sm:h-[300px]
               md:h-[380px]
               lg:h-[390px]

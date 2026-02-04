@@ -40,8 +40,8 @@ const roadmap = [
 
 const JourneyRoadmap = () => {
   return (
-    <section className="relative py-24 bg-slate-950 text-white mt-10">
-      <h2 className="text-center text-4xl font-bold mb-20">
+    <section id='map' className="relative py-24 text-white mt-10">
+      <h2 className="text-center text-[2rem] font-bold mb-20">
         Our Journey Ahead
       </h2>
 

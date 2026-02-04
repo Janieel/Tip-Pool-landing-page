@@ -9,9 +9,9 @@ const Feautures = () => {
   return (
     <div>
 
-         <div className=' mt-15 '>
-              <p className=' text-center text-[2.5rem] mx-5 sm:mx-0 text-white font-extrabold font-serif'>Why Choose Tip-Pool?</p>
-              <p className='text-center text-[1.5rem]  mx-5 sm:mx-0 text-white'>Cutting-Edge Features for Everyone</p>
+         <div id='feautures'  className=' mt-15 '>
+              <p className=' text-center text-[2rem] md:text-[2.5rem] mx-5 sm:mx-0 text-white font-bold font-serif'>Why Choose Tip-Pool?</p>
+              <p className='text-center text-[1rem] md:text-[1.5rem]  mx-5 sm:mx-0 text-white'>Cutting-Edge Features for Everyone</p>
               <div className="flex items-center w-full gap-5  mt-10 px-5 md:px-20  "> 
                  <ul className=' w-full flex gap-4 overflow-x-scroll '>
                       <li className='  px-5  w-[300px]  sm:w-[360px]  rounded-t-[20px] bg-blue-100 pt-5 flex-shrink-0' >

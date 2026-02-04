@@ -5,7 +5,11 @@ import Procons from '../../Component/Procons/Procons'
 import Wallcon from '../../Component/Wallcon/Wallcon'
 import Feautures from '../../Component/Feautures/Feautures'
 import Users from '../../Component/Users/Users'
-import Teckstack from '../../Component/Map/Map'
+import Journeyroadmap from '../../Component/Journeyroadmap/Journeyroadmap'
+import Techstack from '../../Component/Techstack/Techstack'
+import Vision from '../../Component/Vision/Vision'
+import Footer from '../../Component/Footer/Footer'
+
 
 const Landing = () => {
   return (
@@ -16,7 +20,10 @@ const Landing = () => {
         <Wallcon/>
         <Feautures/>
         <Users/>
-        <Teckstack/>
+        <Journeyroadmap/>
+        <Techstack/>
+        <Vision/>
+        <Footer/>
         
     </div>
   )
