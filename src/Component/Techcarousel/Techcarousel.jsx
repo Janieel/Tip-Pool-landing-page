@@ -3,7 +3,7 @@ import { useEffect, useState, useRef } from "react";
 import b from "../../assets/Icons/blockchain.svg";
 import d from "../../assets/Icons/data-transfer.svg";
 import c from "../../assets/Icons/customer-care.svg";
-import w from "../../assets/Icons/Wallet.svg";
+import w from "../../assets/Icons/wallet.svg";
 import u from "../../assets/Icons/universal-access.svg";
 import t from "../../assets/Icons/team.svg";
 
