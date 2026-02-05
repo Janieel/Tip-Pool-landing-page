@@ -22,7 +22,7 @@ const Vision = () => {
             className=' text-white  '>
              <div className='h-40  flex items-center justify-center mb-10 '>
                  <div className=''>
-                    <p className='text-[1.5rem] sm:text-[3rem] text-center font-semibold'>Our Vision And Impact</p>  
+                    <p className='text-[2rem] sm:text-[3rem] text-center font-semibold'>Our Vision And Impact</p>  
                     <p className='text-[1rem] text-center sm:text-[1.5rem]'> Shaping the future of tipping, today </p>
                 </div>   
              </div>

@@ -54,7 +54,8 @@ const Card = ({ item }) => {
   const [hovered, setHovered] = useState(false);
 
   return (
-    <motion.div
+    <motion.div 
+    
       onHoverStart={() => setHovered(true)}
       onHoverEnd={() => setHovered(false)}
       animate={{
